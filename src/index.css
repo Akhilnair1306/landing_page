@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body
+{
+  background-color: #3A3333; /* Set your desired background color here */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Outfit', sans-serif; /* Set the font-family to 'latest' or any desired font */
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.latest {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold; 
 }
+
+.topics
+{
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.cc{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Rectangle {
+  background-color: rgba(5, 229, 232, 0.15); /* Set your desired background color with 15% opacity */
+  margin-top: 50px; /* Remove default margin */
+}
+
+
