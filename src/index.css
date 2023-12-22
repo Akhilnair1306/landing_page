@@ -33,9 +33,5 @@ body
   margin-top: 20px;
 }
 
-.Rectangle {
-  background-color: rgba(5, 229, 232, 0.15); /* Set your desired background color with 15% opacity */
-  margin-top: 50px; /* Remove default margin */
-}
 
 
