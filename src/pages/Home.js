@@ -90,7 +90,7 @@ export default function Home()
   </div>
 </div>
 
-<button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-teal-400 rounded-full p-2 sm:w-auto md:w-auto lg:w-auto">
+<button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-teal-400 rounded-full p-4 sm:w-auto md:w-auto lg:w-auto">
   explore more
 </button>
 <div class= "Rectangle">
