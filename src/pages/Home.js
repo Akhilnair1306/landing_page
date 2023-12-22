@@ -14,9 +14,6 @@ export default function Home()
   <div id="slide1" className="carousel-item relative w-full h-full">
     <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full h-full object-cover" alt="Slide 1" />
     <div className="absolute inset-0 flex flex-col justify-end p-5">
-      <div className="bg-white bg-opacity-80 p-4 rounded-md">
-        <p className="text-2xl font-bold mb-4">Your Text Here</p>
-      </div>
       <div className="flex justify-between">
         <a href="#slide4" className="btn btn-circle">❮</a> 
         <a href="#slide2" className="btn btn-circle">❯</a>
@@ -26,9 +23,6 @@ export default function Home()
   <div id="slide2" className="carousel-item relative w-full h-full">
     <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full h-full object-cover" alt="Slide 2" />
     <div className="absolute inset-0 flex flex-col justify-end p-5">
-      <div className="bg-white bg-opacity-80 p-4 rounded-md">
-        <p className="text-2xl font-bold mb-4">Your Text Here</p>
-      </div>
       <div className="flex justify-between">
         <a href="#slide1" className="btn btn-circle">❮</a> 
         <a href="#slide3" className="btn btn-circle">❯</a>
@@ -38,9 +32,6 @@ export default function Home()
   <div id="slide3" className="carousel-item relative w-full h-full">
     <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full h-full object-cover" alt="Slide 3" />
     <div className="absolute inset-0 flex flex-col justify-end p-5">
-      <div className="bg-white bg-opacity-80 p-4 rounded-md">
-        <p className="text-2xl font-bold mb-4">Your Text Here</p>
-      </div>
       <div className="flex justify-between">
         <a href="#slide2" className="btn btn-circle">❮</a> 
         <a href="#slide4" className="btn btn-circle">❯</a>
@@ -50,9 +41,6 @@ export default function Home()
   <div id="slide4" className="carousel-item relative w-full h-full">
     <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full h-full object-cover" alt="Slide 4" />
     <div className="absolute inset-0 flex flex-col justify-end p-5">
-      <div className="bg-white bg-opacity-80 p-4 rounded-md">
-        <p className="text-2xl font-bold mb-4">Your Text Here</p>
-      </div>
       <div className="flex justify-between">
         <a href="#slide3" className="btn btn-circle">❮</a> 
         <a href="#slide1" className="btn btn-circle">❯</a>
